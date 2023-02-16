@@ -11,6 +11,6 @@ BaselineOfGToolkit4Faker >> baseline: spec [
 		for: #common
 		do: [ spec
 				baseline: 'Faker'
-				with: [ spec repository: 'github://feenkcom/faker:main/src' ].
+				with: [ spec repository: 'github://feenkcom/faker:master/src' ].
 			spec package: 'GToolkit4Faker' ]
 ]
